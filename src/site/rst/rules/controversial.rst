@@ -47,11 +47,11 @@ Example: ::
 This rule has the following properties:
 
 =================================== =============== =========================================================
- Name                                Default Value   Description                                             
+ Name                                Default Value   Description
 =================================== =============== =========================================================
- allow-underscore                    false           Allow an optional, single underscore at the beginning.  
- allow-underscore-test               false           Is it allowed to have underscores in test method names. 
- allow-multiple-underscore-test      false           Is it allowed to have multiple underscores in test method names.
+ allow-underscore                    false           Allow an optional, single underscore at the beginning.
+ allow-underscore-test               false           Is it allowed to have underscores in test method names.
+ allow-multiples-underscore-test      false           Is it allowed to have multiple underscores in test method names.
 =================================== =============== =========================================================
 
 CamelCaseMethodName
@@ -71,11 +71,11 @@ Example: ::
 This rule has the following properties:
 
 =================================== =============== =========================================================
- Name                                Default Value   Description                                             
+ Name                                Default Value   Description
 =================================== =============== =========================================================
- allow-underscore                    false           Allow an optional, single underscore at the beginning.  
+ allow-underscore                    false           Allow an optional, single underscore at the beginning.
  allow-underscore-test               false           Is it allowed to have underscores in test method names.
- allow-multiple-underscore-test      false           Is it allowed to have multiple underscores in test method names.
+ allow-multiple-underscores-test      false           Is it allowed to have multiple underscores in test method names.
 =================================== =============== =========================================================
 
 CamelCaseParameterName
@@ -113,4 +113,3 @@ Remark
   This document is based on a ruleset xml-file, that was taken from the original source of the `PMD`__ project. This means that most parts of the content on this page are the intellectual work of the PMD community and its contributors and not of the PHPMD project.
 
 __ http://pmd.sourceforge.net/
-        
